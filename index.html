@@ -6,25 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello, World! This Is Kazuya</p>
-    <h1>Welcome to My Website</h1>
+<!-- #1 
+INSERT AN IMAGE -->
+    <!-- Save an image in the same folder as this html file -->
+    <!-- Add it to your page using the img tag -->
+    <!-- Add alternate text under the alt attribute -->
+     <img src="images (7).jpg" alt="Custodian">
 
- <li><strong>Top 5 ways to make cheese!!</strong></li>
-    <Strong><ol>
-        <li><strong>Choose the right type of milk </strong></li>
-        <li><strong>Add Renet to the milk </strong></li>
-        <li><strong>Let the warm milk sit and form curds </strong></li>
-        <li><strong>Pour the mixture and curds through a drain</strong></li>
-        <li><strong>press and salt the cheese </strong></li>
-    </ol></strong>
+<!-- #2
+RESIZE IT  -->
+    <!-- Copy the image tag above, but this time add more attributes -->
+    <!-- Add the width attribute, then height, then both -->
+    <img src="images (7).jpg" alt="Custodian" width="200" height="300">
 
-     <li><strong>Top 5 ways to make friends!!</strong></li>
-    <Strong><ol>
-        <li><strong>Go to social events, like parties or clubs </strong></li>
-        <li><strong>Spend time in online forums for topics you enjoy</strong></li>
-        <li><strong>Meet new people at school lunches or school clubs if you are in school </strong></li>
-        <li><strong>Approach people with a smile and friendly conversation </strong></li>
-        <li><strong>outwardly share your interests and hobbies to connect with others who enjoy them too</strong></li>
-    </ol></strong>
+<!-- #3
+ADD A SIMPLE LINK  -->
+    <!-- Create a simple text link with the anchor tag "a" -->
+    <!-- Use a webite url in the href attribute -->
+    <a href="https://www.warhammer.com/en-US/shop/warhammer-40000/armies-of-the-imperium/adeptus-custodes">Visit the custodes page</a>
+
+
+<!-- #4
+TURN AN IMAGE INTO A LINK -->
+    <!-- Nest the image tag INSIDE the a tag.  -->
+    <!-- You want to put it in between the open and close tags! -->
+    <a href="https://www.warhammer.com/en-US/shop/warhammer-40000/armies-of-the-imperium/adeptus-custodes">
+        <img src="images (7).jpg" alt="Custodian" width="200" height="300">
+    </a>
+<!-- #5
+ADD A LINK TO ANOTHER HTML PAGE  -->
+    <!-- Add another a tag, but this time, use the relative path for the href attribute -->
+    <!-- The full path is what you can open in your browser BUT only on your computer -->
+    <!-- The relative path takes you from your current location (in this case this folder) so it will work in github when you push your folder -->
+    <a href="index2.html">Visit Kazuya's page</a>
+
+
 </body>
 </html>
